@@ -1,0 +1,51 @@
+# Simulador Interativo de Árvore Binária de Busca (ABB)
+
+Este projeto foi desenvolvido como trabalho final da disciplina de **Estrutura de Dados**.
+
+## 👨‍🎓 Informações do Aluno
+
+* **Nome completo:** Marvio Rodrigues da Silva
+* **Matrícula:** 20241.CNT0006
+
+## 📌 Descrição do Projeto
+
+Um simulador interativo de Árvore Binária de Busca (ABB), com interface visual e funcionalidades completas para manipulação de dados na estrutura:
+
+### Funcionalidades implementadas:
+
+* Inserção de nós
+* Remoção de nós
+* Busca de valores
+* Travessias:
+
+  * Em ordem
+  * Pré-ordem
+  * Pós-ordem
+  * Por largura (BFS)
+  * Por profundidade (DFS)
+* Visualização gráfica dinâmica da árvore
+* Interface amigável com mensagens de retorno e ações por botão
+
+## 🗂️ Organização dos Arquivos
+
+O projeto está dividido em cinco componentes principais:
+
+1. **`EstruturaArvore.js`** — Estrutura de dados (nós e árvore)
+2. **`TravessiasArvore.js`** — Algoritmos de percursos
+3. **`DesenhoArvore.js`** — Renderização gráfica no canvas
+4. **`InteracaoUsuario.js`** — Funções dos botões e inputs do usuário
+5. **`MensagensNaTela.js`** — Exibição de mensagens e feedbacks
+
+## 💻 Tecnologias Utilizadas
+
+* HTML5
+* CSS3 (TailwindCSS)
+* JavaScript Puro (sem frameworks)
+
+## ✅ Como Utilizar
+
+1. Abra o arquivo `index.html` em seu navegador
+2. Insira valores nos campos e interaja com os botões para ver o funcionamento da ABB
+3. As ações serão refletidas em tempo real na tela
+
+---

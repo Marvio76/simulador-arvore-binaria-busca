@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulador de Árvore Binária de Busca</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen flex flex-col items-center p-4">
+
+    <h1 class="text-2xl font-bold mb-4">Simulador de Árvore Binária de Busca</h1>
+
+    <div class="flex flex-col md:flex-row gap-4 mb-4">
+        <input id="entradaValor" type="number" placeholder="Digite um valor" class="border p-2 rounded" />
+        <button onclick="inserir()"
+            class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Inserir</button>
+        <button onclick="buscar()" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Buscar</button>
+        <button onclick="remover()" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Remover</button>
+    </div>
+
+    <div class="flex flex-wrap gap-2 mb-4">
+        <button onclick="mostrarPercurso('emOrdem')" class="bg-gray-700 text-white px-2 py-1 rounded">Em Ordem</button>
+        <button onclick="mostrarPercurso('preOrdem')"
+            class="bg-gray-700 text-white px-2 py-1 rounded">Pré-Ordem</button>
+        <button onclick="mostrarPercurso('posOrdem')"
+            class="bg-gray-700 text-white px-2 py-1 rounded">Pós-Ordem</button>
+        <button onclick="mostrarPercurso('largura')" class="bg-purple-700 text-white px-2 py-1 rounded">Largura
+            (BFS)</button>
+        <button onclick="mostrarPercurso('profundidade')"
+            class="bg-purple-700 text-white px-2 py-1 rounded">Profundidade (DFS)</button>
+    </div>
+
+
+    <div id="mensagem" class="mb-4 text-center font-semibold"></div>
+    <canvas id="quadro" width="1000" height="500" class="bg-white border shadow mb-4"></canvas>
+    <div id="resultadoPercurso" class="text-center text-blue-700 font-semibold"></div>
+
+    <script src="componentes/EstruturaArvore.js"></script>
+    <script src="componentes/TravessiasArvore.js"></script>
+    <script src="componentes/MensagensNaTela.js"></script>
+    <script src="componentes/DesenhoArvore.js"></script>
+    <script src="componentes/InteracaoUsuario.js"></script>
+
+
+</body>
+
+</html>
