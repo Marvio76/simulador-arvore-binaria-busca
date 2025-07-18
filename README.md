@@ -4,8 +4,8 @@ Este projeto foi desenvolvido como trabalho final da disciplina de Estrutura de 
 
 ## 👨‍🎓 Informações do Aluno
 
- Nome completo: Marvio Rodrigues da Silva
- Matrícula: 20241ADS.CNT0006
+ * Nome completo: Marvio Rodrigues da Silva
+ * Matrícula: 20241ADS.CNT0006
 
 ## 📌 Descrição do Projeto
 
